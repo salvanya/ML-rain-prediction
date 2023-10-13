@@ -19,7 +19,7 @@ This repository contains a machine learning project focused on predicting rainfa
 
 ## Conclusion
 
-This repository provides a comprehensive analysis of machine learning techniques applied to weather forecasting in Australia. It highlights the importance of data preprocessing, feature engineering, model selection, and performance evaluation. Feel free to explore the code, data, and results, and contribute to further improvements.
+This repository provides a comprehensive analysis of machine learning techniques applied to weather forecasting in Australia. It highlights the importance of data preprocessing, feature engineering, model selection, and performance evaluation.
 
 ## Getting Started
 
