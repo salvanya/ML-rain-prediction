@@ -78,7 +78,6 @@ def process_data(df):
 
     return df
 
-x_train_processed = process_data(weatherAUS_df)
 
 """## Separar conjuntos de entrenamiento y de prueba"""
 
@@ -95,8 +94,6 @@ def split_datasets(df):
 
     return x_train, x_test, y_train_reg, y_test_reg, y_train_class, y_test_class
 
-# Uso de la función con tu DataFrame
-x_train, x_test, y_train_reg, y_test_reg, y_train_class, y_test_class = split_datasets(x_train_processed)
 
 """# Procesamiento de los datos"""
 
