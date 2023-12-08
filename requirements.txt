@@ -4,7 +4,8 @@ matplotlib==3.7.1
 seaborn==0.12.2
 statsmodels==0.14.0
 scipy==1.11.4
-sklearn==1.2.2
+scikit-learn==1.2.2
+streamlit==1.29.0
 imblearn==0.10.1
 tensorflow==2.14.0
 optuna==3.4.0
