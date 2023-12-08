@@ -2,6 +2,7 @@
 import numpy as np
 import pandas as pd
 import warnings
+import sklearn
 
 warnings.filterwarnings("ignore")
 
@@ -9,6 +10,7 @@ warnings.filterwarnings("ignore")
 from scipy.stats import pearsonr
 
 # Scikit-learn
+import sklearn
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.impute import KNNImputer
@@ -16,9 +18,11 @@ from sklearn.pipeline import Pipeline
 from sklearn.metrics import (mean_squared_error, r2_score,accuracy_score, precision_score, recall_score, f1_score)
 
 # Imbalanced-learn
+import imblearn
 from imblearn.over_sampling import SMOTE
 
 # Tensorflow
+import tensorflow
 from tensorflow import keras
 
 # Scikit-learn y Tensorflow (repetidos, puedes eliminar uno de cada par)
@@ -38,6 +42,20 @@ import joblib
 """
 
 weatherAUS_df = pd.read_csv('weatherAUS.csv')
+
+"""## Crear la lista de columnas
+"""
+# Definir tus columnas
+columnas = ['MinTemp', 'MaxTemp', 'Rainfall', 'Evaporation', 'Sunshine',
+       'WindGustSpeed', 'WindSpeed9am', 'WindSpeed3pm', 'Humidity9am',
+       'Humidity3pm', 'Pressure9am', 'Pressure3pm', 'Cloud9am', 'Cloud3pm',
+       'Temp9am', 'Temp3pm', 'wet_month', 'Location_Melbourne',
+       'Location_MelbourneAirport', 'Location_Sydney',
+       'Location_SydneyAirport', 'RainToday_Yes']
+
+columnas_seleccionadas = ['wet_month', 'Location_Melbourne',
+       'Location_MelbourneAirport', 'Location_Sydney',
+       'Location_SydneyAirport', 'RainToday_Yes']
 
 """## Procesar los datos
 
