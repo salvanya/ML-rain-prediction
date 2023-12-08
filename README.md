@@ -23,9 +23,11 @@ This repository provides a comprehensive analysis of machine learning techniques
 
 ## Getting Started
 
-1. Clone the repository.
-2. Install the required Python libraries using `pip install -r requirements.txt`.
-3. Explore the Jupyter notebooks for detailed analysis and model implementations.
+1. Clone the repository to your local machine.
+2. Install the necessary Python libraries with `pip install -r requirements.txt`.
+3. Explore the development stage in the Rain_Tomorrow.ipynb Jupyter Notebook, where various methodologies and models were tested, and performance metrics were evaluated.
+4. Check out the MLOps.ipynb Jupyter Notebook for the creation of pipelines with the best-performing models and their optimized parameters.
+5. To make predictions, run `streamlit run app.py` in your console. Enter the prediction values and click the "Submit" button.
 
 ## Contributors
 
